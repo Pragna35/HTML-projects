@@ -1,0 +1,179 @@
+<!--!DOCTYPE html>
+<html>
+
+<head>
+    <title> Tables introduction</title>
+    <style>
+        table {
+            width: 600px;
+            background-color: lightcyan;
+            margin-top: 16px;
+            margin-left: 16px;
+        }
+
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 12px;
+        }
+
+        td,
+        th {
+            font-size: 24px;
+
+        }
+
+        #caption {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+
+
+
+<body>
+    <table>
+        <caption id="caption">My Secret Time-Table</caption>
+        <tr>
+            <td rowspan="6">Hours</td>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+        </tr>
+
+        <tr>
+            <td>Telugu</td>
+            <td>Hindi</td>
+            <td>English</td>
+            <td>Mathematics</td>
+            <td>E.V.S</td>
+        </tr>
+
+        <tr>
+            <td>E.V.S</td>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td>Hindi</td>
+            <td>Telugu</td>
+        </tr>
+        <tr>
+            <td colspan="5" style="text-align: center;">Lunch Break</td>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+            <td>Telugu</td>
+            <td>English</td>
+            <td>Hindi</td>
+            <td>E.V.S</td>
+        </tr>
+        <tr>
+            <td>E.V.S</td>
+            <td>Telugu</td>
+            <td>English</td>
+            <td>Hindi</td>
+            <td>Mathematics</td>
+        </tr>
+    </table>
+</body>
+
+</html-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practice of tables</title>
+    <style>
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            width: 950px;
+        }
+
+        table,
+        td,
+        th {
+
+            border: 2px solid black;
+            border-collapse: collapse;
+            font-size: 24px;
+
+
+        }
+
+        td,
+        th {
+
+            padding: 14px;
+            text-align: left;
+
+        }
+
+        th {
+            background-color: lightcyan;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <Table>
+        <tr>
+            <th colspan="3">
+                Invoice#12345ABc
+            </th>
+            <th>18 July 2024</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+
+                <p><b>Pay To:</b><br>The Tech Park<br>123 Willow Street<br>Boulevard,LA-567892</p>
+            </td>
+            <td colspan="2"><b>Customer:</b><br>John Lark<br>Dummy Apartments<br>213 Main Street<br>Boulevard,LA567892
+            </td>
+        </tr>
+        <th>
+            Name/Description
+        </th>
+        <th>Qty.</th>
+        <th>MRP</th>
+        <th>Amount</th>
+        <tr>
+            <td>Biryani</td>
+            <Td>3</Td>
+            <td>400</td>
+            <td>1200</td>
+        </tr>
+        <tr>
+            <td>Chocolate Shake</td>
+            <Td>3</Td>
+            <td>200</td>
+            <td>600</td>
+        </tr>
+        <tr>
+            <th colspan="3">Subtotal:</th>
+            <td>1800</td>
+        </tr>
+        <tr>
+            <th colspan="2">Tax</th>
+            <td>10%</td>
+            <td>180</td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                Grand Total:
+            </th>
+            <td>Rs 1620</td>
+        </tr>
+
+    </Table>
+</body>
+
+</html>

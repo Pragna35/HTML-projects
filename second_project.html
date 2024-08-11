@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>practice of scemantic tags</title>
+    <style>
+        #header {
+            background-color: lightblue;
+            padding: 16px;
+        }
+
+        #navbar {
+            background-color: lightcoral;
+            padding: 8px;
+        }
+
+        #main-section {
+            background-color: antiquewhite;
+            padding: 36px;
+        }
+
+        #section {
+            background-color: lightpink;
+            padding: 24px;
+        }
+
+        .article {
+            background-color: lightseagreen;
+            padding: 8px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+
+
+        }
+
+        #footer {
+            background-color: aqua;
+            padding: 8px;
+            margin-bottom: 16px;
+        }
+
+        #details {
+            background-color: rgb(190, 201, 212);
+            padding: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <nav id="navbar">
+            <span>Menu 1</span>
+            <span>Menu 2</span>
+            <span>Menu 3</span>
+        </nav>
+    </header>
+    <main id="main-section">
+        <section id="section">
+            <article class="article">
+                <header>
+                    <h3>The first Author.</h3>
+                    <a href="/">Author 1</a>
+                </header>
+                <p>In this article, you have the information About only the first author.</p>
+            </article>
+
+            <article class="article">
+                <header>
+                    <h3>The second Author.</h3>
+                    <a href="/">Author 2</a>
+                </header>
+                <p>In this article, you have the information About only the second author.</p>
+            </article>
+
+        </section>
+    </main>
+    <footer id="footer">
+        <p>Copyright 2024</p>
+    </footer>
+
+    <details id="details">
+        <summary>Index of the book</summary>
+        <ul style="list-style-type: none;">
+            <li>
+                <details>
+                    <summary>First chapter</summary>
+                    <h3>Numbers</h3>
+                    <p> Total information about numbers</p>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Second chapter</summary>
+                    <h3>Alzebric Expressions</h3>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Third chapter</summary>
+                    <h3>Area and Perimeter</h3>
+                </details>
+            </li>
+        </ul>
+    </details>
+</body>
+
+</html>
